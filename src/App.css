@@ -1,19 +1,22 @@
 .App{
   width:100vw;
-  height:100vh;
+  height:100vh; /* total visible screen */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 body{
   margin: 0;
   padding: 0;
+  background: rgb(34,193,195);
+background: linear-gradient(81deg, rgba(34,193,195,1) 5%, rgba(253,187,45,1) 89%);
 }
 
 .board{
   width: 500px;
   height: 500px;
-  background-color: brown;
+  background: rgb(131,58,180);
+background: linear-gradient(18deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.5578606442577031) 11%, rgba(252,176,69,1) 100%);
   border: 1px solid black;
 }
